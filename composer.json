@@ -1,0 +1,20 @@
+{
+    "name": "abstract/abstract",
+    "description": "Componential language using HTML-based syntax to access PHP class and method",
+    "type": "library",
+    "require": {
+        "abstract/utilities": "^0.0.3"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Ab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abstracts",
+            "email": "developers@abstract.codes"
+        }
+    ]
+}
